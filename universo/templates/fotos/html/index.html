@@ -1,0 +1,21 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNIVERSO</title>
+</head>
+<body>
+    <h2>PORTFÓLIO UNIVERSO</h2>
+    <h2>Galeria de Fotos</h2>
+    <figure>
+        <img src ="{% static 'universo1.jpg' %}" alt="Galáxia Suprema" widht="200" height="200">
+        <figcaption>Imagem da galáxia vista de forma diferente</figcaption>
+        <img src ="{% static 'universo2.jpg' %}" alt="Abraço a Galáxia" widht="200" height="200">
+        <figcaption>Imagem de uma pessoa com os braços levantados para o universo</figcaption>
+        <img src ="{% static 'universo3.jpg' %}" alt="Amor pelo Espaço" widht="200" height="200">
+        <figcaption>Imagem perceptiva da Galáxia</figcaption>
+    </figure>
+</body>
+</html>
